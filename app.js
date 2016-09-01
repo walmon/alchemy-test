@@ -11,7 +11,7 @@ var alchemy_language = watson.alchemy_language({
 });
 
 var parameters = {
-  extract: 'entities,keywords,concepts,taxonomy',
+  extract: 'entities,keywords,concepts,taxonomy,relations,typed-rels,doc-emotion,doc-sentiment',
   sentiment: 1,
   maxRetrieve: 1
 };
